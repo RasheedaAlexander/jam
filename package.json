@@ -1,0 +1,22 @@
+{
+  "name": "jam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RasheedaAlexander/jam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RasheedaAlexander/jam/issues"
+  },
+  "homepage": "https://github.com/RasheedaAlexander/jam#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
