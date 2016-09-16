@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import {SpotifyService} from '../../services/spotify.service';
-import {Artist} from '../../../Artist';
-import {Album} from '../../../Album';
+import {Artist} from './app/components/artist';
+import {Album} from './app/components/album';
 import {ActivatedRoute} from '@angular/router';
 
 @Component({
     moduleId:module.id,
     selector: 'album',
-    templateUrl: 'album.component.html',
-    directives:[ROUTER_DIRECTIVES]
+    templateUrl: 'album.component.html'
 })
 export class AlbumComponent {
     id:string;

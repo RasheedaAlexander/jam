@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import {SpotifyService} from '../../services/spotify.service';
-import {Artist} from '../../../Artist';
-import {Album} from '../../../Album';
+import {Artist} from './app/components/artist';
+import {Album} from './app/components/album';
 import {ActivatedRoute} from '@angular/router';
 
 @Component({
     moduleId:module.id,
     selector: 'artist',
-    templateUrl: 'artist.component.html',
-    directives: [ROUTER_DIRECTIVES]
+    templateUrl: 'artist.component.html'
 })
 export class ArtistComponent implements OnInit{
     id:string;
