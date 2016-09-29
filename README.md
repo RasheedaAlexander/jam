@@ -1,6 +1,23 @@
-#H1 Jam
+![Angular Logo](https://angular.io/resources/images/logos/angular2/angular.png) #Jam
 
-###H3 Configuration Files:
+#Features
+Access the world of music via Spotify with a simple search!
+
+#Installation
+Install the dependencies. Run the program:
+
+`$ npm install`
+`$ npm run lite`
+
+browse http://localhost:3000
+
+#Stack
+ES5
+[Angular 2 - RC6](https://github.com/angular/quickstart)
+TypeScript
+[Spotify API (Spotify Service)](https://developer.spotify.com/web-api/)
+
+###Configuration Files:
 
 + **package.json** identifies npm package dependencies for the project.
 + **tsconfig.json** defines how the TypeScript compiler generates JavaScript from the project's files.
