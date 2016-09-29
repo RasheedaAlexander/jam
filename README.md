@@ -1,4 +1,7 @@
 #Jam
+
+![Jam App](https://i.gyazo.com/b53da5cbf15c173394021eb7e4f0e388.png)
+
 ![Angular Logo](https://angular.io/resources/images/logos/angular2/angular.png)
 
 #Features
@@ -16,10 +19,10 @@ Run the program:
 browse http://localhost:3000
 
 #Stack
-ES5
-[Angular 2 - RC6](https://github.com/angular/quickstart)
-TypeScript
-[Spotify API (Spotify Service)](https://developer.spotify.com/web-api/)
++ ES5
++ [Angular 2 - RC6](https://github.com/angular/quickstart)
++ TypeScript
++ [Spotify API (Spotify Service)](https://developer.spotify.com/web-api/)
 
 ###Configuration Files:
 
