@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 html {
 overflow-y: hidden;
 }
 .main{
+=======
+body{
+>>>>>>> angular2
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.45),
@@ -10,12 +14,21 @@ overflow-y: hidden;
     url("https://66.media.tumblr.com/c97868160fc2d5ddf9ea546e0853c0b6/tumblr_n7kjymW5QH1r7xp9co1_500.gif");
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
     overflow: hidden;
+=======
+    overflow: visible;
+>>>>>>> angular2
     width: 100%;
   }
   .container {
     position: relative;
     margin: 0 auto;
+<<<<<<< HEAD
+=======
+    padding-bottom: 50%;
+    text-align: center;
+>>>>>>> angular2
   }
   h1 {
     font-size: 64px;
