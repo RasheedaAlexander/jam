@@ -1,12 +1,16 @@
-![Angular Logo](https://angular.io/resources/images/logos/angular2/angular.png) #Jam
+#Jam
+![Angular Logo](https://angular.io/resources/images/logos/angular2/angular.png)
 
 #Features
 Access the world of music via Spotify with a simple search!
 
 #Installation
-Install the dependencies. Run the program:
+Install the dependencies.
 
 `$ npm install`
+
+Run the program:
+
 `$ npm run lite`
 
 browse http://localhost:3000
