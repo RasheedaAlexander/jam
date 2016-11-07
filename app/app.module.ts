@@ -1,6 +1,6 @@
 // NgModule takes a metadata object that tells Angular how to compile and run module code
 import { NgModule }      from '@angular/core';
-// The metadata (thst tells Angular how to compile & run module code)imports helper modules, mainly BrowserModule,
+// The metadata (that tells Angular how to compile & run module code)imports helper modules, mainly BrowserModule,
   // browsermodule is the module every browser app must import
     // registers critical application service providers
 import { BrowserModule } from '@angular/platform-browser';
