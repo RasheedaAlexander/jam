@@ -1,18 +1,23 @@
+//call {decorator} from module
 import { Component, OnInit } from '@angular/core';
 import {SpotifyService} from '../../services/spotify.service';
-import {Artist} from './app/components/artist';
-import {Album} from './app/components/album';
+import {Artist} from '/app/components/artist/artist.component';
+import {Album} from '/app/components/album/album.component';
 import {ActivatedRoute} from '@angular/router';
+import {Location} from '@angular/common';
 
+//decorators must be prefixed with an @
 @Component({
     moduleId:module.id,
     selector: 'artist',
     templateUrl: 'artist.component.html'
 })
 export class ArtistComponent implements OnInit{
-    id:string;
+  // Initialize the directive/component after Angular 1st displays the data-bound properties and sets the directive/component's input properties
+  // Called once, after the first ngOnChanges
+    id: string;
     artist: Artist[];
-    albums:Album[];
+    albums: Album[];
 
     constructor(
         private _spotifyService:SpotifyService,
@@ -34,5 +39,13 @@ export class ArtistComponent implements OnInit{
                         this.albums = albums.items;
                     })
             })
+    }
+}
+//back button component
+class AppCmp {
+    constructor(private _location: Location) {
+    }
+    backClicked() {
+        this._location.back();
     }
 }

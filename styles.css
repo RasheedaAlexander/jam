@@ -1,44 +1,95 @@
-<<<<<<< HEAD
-html {
-overflow-y: hidden;
-}
-.main{
-=======
-body{
->>>>>>> angular2
-  background:
-  linear-gradient(
-    rgba(0, 0, 0, 0.45),
-    rgba(255, 0, 235, 0.45)
-    ),
-    url("https://66.media.tumblr.com/c97868160fc2d5ddf9ea546e0853c0b6/tumblr_n7kjymW5QH1r7xp9co1_500.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-<<<<<<< HEAD
-    overflow: hidden;
-=======
-    overflow: visible;
->>>>>>> angular2
-    width: 100%;
-  }
-  .container {
-    position: relative;
-    margin: 0 auto;
-<<<<<<< HEAD
-=======
-    padding-bottom: 50%;
-    text-align: center;
->>>>>>> angular2
-  }
-  h1 {
-    font-size: 64px;
-    color: white;
-  }
-  p{
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
-  }
-  .form-group input {
-    height: 45px;
-  }
+  body{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(255, 0, 235, 0.45)
+      ),
+      url("https://66.media.tumblr.com/c97868160fc2d5ddf9ea546e0853c0b6/tumblr_n7kjymW5QH1r7xp9co1_500.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      overflow: visible;
+      width: 100%;
+    }
+    .container-fluid {
+      position: relative;
+      margin: 0 auto;
+      padding-bottom: 50%;
+      text-align: center;
+    }
+    h1 {
+      font-size: 64px;
+      color: white;
+    }
+    p{
+      font-size: 40px;
+      font-weight: bold;
+      color: white;
+    }
+    .form-group input {
+      height: 45px;
+    }
+    /*
+    ARTIST
+    */
+    .img-circle {
+      width: 50%;
+    }
+    .well {
+      text-align: center;
+      height: 453px;
+    }
+    .img-thumbnail {
+      width: 85%;
+    }
+    /*
+    END ARTIST
+    */
+
+    /*
+    ALBUM
+    */
+    #alb-desc {
+      margin-top: 200px;
+      color: white;
+    }
+    #artist-name {
+      font-size: 50px;
+    }
+    .tracks {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    #track-num {
+      font-size: 26px;
+      color: white;
+    }
+    .tracks a {
+      font-size: 30px;
+    }
+    .tracks span {
+      font-color: blue
+    }
+    /*
+    END ALBUM
+    */
+
+    /*
+    SEARCH RESULTS
+    */
+    .results {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    strong {
+      font-weight: bold;
+      color: white;
+    }
+    #artist {
+      color: green;
+      font-weight: bold;
+    }
+    #genres {
+      color: white;
+    }
+    /*
+    END SEARCH RESULTS
+    */
